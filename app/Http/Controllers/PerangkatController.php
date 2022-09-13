@@ -53,7 +53,8 @@ class PerangkatController extends Controller
         ]);
 
         if($request->file('image')){
-            $validateData['image'] = $request->file('image')->store('gambar-perangkat');
+            $request->file('image')->store('public/gambar-perangkat');
+            $validateData['image'] = $request->file('image')->hashName();
         }
 
         // $validateData['excerpt'] = Str::limit(strip_tags($request->isi), 20);
