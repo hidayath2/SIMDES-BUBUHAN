@@ -85,7 +85,8 @@
           <div class="col-lg-4 col-md-12 mb-4">
             {{-- <div class="card" style="height:550px; margin-top: 80px;"> --}}
               <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                <img src="{{ asset('storage/' . $kegiatan->image) }}" class="img-fluid"  style="height: 300px"/>
+                {{-- <img src="{{ asset('storage/' . $kegiatan->image) }}" class="img-fluid"  style="height: 300px"/> --}}
+                <img src="{{ asset('storage/gambar-kegiatan/' . $kegiatan->image) }}" class="img-fluid" style="height: 300px">   
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
