@@ -226,7 +226,8 @@
                     <div class="testimonial-item">
                       {{-- <i class="bx bxs-quote-alt-left quote-icon-left"></i> --}}
                       {{-- <span class="fa fa-user-o"></span> --}}
-                      <img src=" {{ asset('storage/' . $perangkat->image) }}" class="testimonial-img" alt="">
+                      {{-- <img src=" {{ asset('storage/' . $perangkat->image) }}" class="testimonial-img" alt=""> --}}
+                      <img src="{{ asset('storage/gambar-perangkat/' . $perangkat->image) }}" alt="Admin" class="rounded-circle" width="150">   
                      
                       <h3>{{ $perangkat->nama }}</h3>
                       <h3>{{ $perangkat->jabatan }}</h3>
