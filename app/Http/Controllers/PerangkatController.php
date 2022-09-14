@@ -51,20 +51,11 @@ class PerangkatController extends Controller
             'jabatan' => 'required',
             'notelpon' => 'required'
         ]);
-
         if($request->file('image')){
-<<<<<<< HEAD
-            $validateData['image'] = $request->file('image')->store('gambar-perangkat');
-            // $request->file('image')->store('public/gambar-perangkat');
-            // $validateData['image'] = $request->file('image')->hashName();
-=======
-            // $request->file('image')->store('public/gambar-perangkat');
-            // $validateData['image'] = $request->file('image')->hashName();
->>>>>>> 2a7f9048761d6bd61a148aa5c6adb3c92646ac52
+            // $validateData['image'] = $request->file('image')->store('gambar-proyek');
+            $request->file('image')->store('public/gambar-user');
+            $validateData['image'] = $request->file('image')->hashName();
         }
-
-        // $validateData['excerpt'] = Str::limit(strip_tags($request->isi), 20);
-
         // $validateData['password'] = Hash::make($validateData['password']);
 
         perangkat::create($validateData);
