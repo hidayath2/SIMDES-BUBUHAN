@@ -126,7 +126,7 @@
                   @foreach ($datakegiata as $kegiatan)
                   <div class="carousel-item {{ $loop->iteration == 1 ? 'active' : '' }}">
                     {{-- <img src="{{ asset('storage/' . $kegiatan->image) }}" style="height: 450px ; background-size:cover" class="d-block w-100" alt="..."> --}}
-                    <img src="{{ asset('storage/gambar-kegiatan/' . $kegiatan->image) }}" alt="Admin" class="rounded-circle" width="150">   
+                    <img src="{{ asset('storage/public/gambar-kegiatan/' . $kegiatan->image) }}" alt="Admin" class="rounded-circle" width="150">   
                   </div>
                   @endforeach
                 </div>
@@ -183,7 +183,7 @@
                 <div class="card" style="height:100%;">
                   <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                     {{-- <img src="{{ asset('storage/' . $proyek->image) }}" class="img-fluid"   style="height: 300px; width:100%;"/> --}}
-                    <img src="{{ asset('storage/gambar-proyek/' . $proyek->image) }}" alt="Admin" class="rounded-circle" width="150">   
+                    <img src="{{ asset('storage/public/gambar-proyek/' . $proyek->image) }}" alt="Admin" class="rounded-circle" width="150">   
                     <a href="#!">
                       <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                     </a>
@@ -228,8 +228,8 @@
                     <div class="testimonial-item">
                       {{-- <i class="bx bxs-quote-alt-left quote-icon-left"></i> --}}
                       {{-- <span class="fa fa-user-o"></span> --}}
-                      <img src=" {{ asset('storage/' . $perangkat->image) }}" class="testimonial-img" alt="">
-                      {{-- <img src="{{ asset('storage/gambar-perangkat/' . $perangkat->image) }}" alt="Admin" class="rounded-circle" width="150">    --}}
+                      {{-- <img src=" {{ asset('storage/' . $perangkat->image) }}" class="testimonial-img" alt=""> --}}
+                      <img src="{{ asset('storage/public/gambar-perangkat/' . $perangkat->image) }}" alt="Admin" class="rounded-circle" width="150">   
                      
                       <h3>{{ $perangkat->nama }}</h3>
                       <h3>{{ $perangkat->jabatan }}</h3>

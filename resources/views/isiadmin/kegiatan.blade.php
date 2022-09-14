@@ -6,8 +6,8 @@
   <div class="col-sm-6" style="margin-left: 20%; width:60%;">
     <article class="single-blog">
       <div class="post-thumb" style="margin-top: 60px; margin-left: -190px; margin-bottom: 50px">
-        <a href=""><img src="{{ asset('storage/' . $daftarkegiatan->image) }}" alt=""></a>
-        {{-- <img src="{{ asset('storage/gambar-kegiatan/' . $daftarkegiatan->image) }}">    --}}
+        {{-- <a href=""><img src="{{ asset('storage/' . $daftarkegiatan->image) }}" alt=""></a> --}}
+        <img src="{{ asset('storage/public/gambar-kegiatan/' . $daftarkegiatan->image) }}">   
       </div>
       <div class="post-content">
         <div class="entry-header text-center text-uppercase" style="margin-bottom: 50px;">							

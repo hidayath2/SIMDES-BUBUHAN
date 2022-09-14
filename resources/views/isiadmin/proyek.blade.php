@@ -8,8 +8,8 @@
       <center>
       <div class="post-thumb" style="margin-top: 60px; margin-bottom: 50px">
         <a href="">
-          <img src="{{ asset('storage/' . $daftarproyek->image) }}" alt="">
-          {{-- <img src="{{ asset('storage/gambar-proyek/' . $daftarproyek->image) }}">    --}}
+          {{-- <img src="{{ asset('storage/' . $daftarproyek->image) }}" alt=""> --}}
+          <img src="{{ asset('storage/public/gambar-proyek/' . $daftarproyek->image) }}">   
         </a>
       </div>
     </center>

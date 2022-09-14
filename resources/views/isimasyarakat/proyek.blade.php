@@ -56,8 +56,8 @@
 			<div class="col-sm-6" style="margin-left: 20%; width:60%;">
 				<article class="single-blog">
 					<div class="post-thumb" style="margin-top: 60px;">
-						<a href=""><img src="{{ asset('storage/' . $daftarproyek->image) }}" alt=""></a>
-            {{-- <img src="{{ asset('storage/gambar-proyek/' . $daftarproyek->image) }}">    --}}
+						{{-- <a href=""><img src="{{ asset('storage/' . $daftarproyek->image) }}" alt=""></a> --}}
+            <img src="{{ asset('storage/public/gambar-proyek/' . $daftarproyek->image) }}">   
 					</div>
 					<div class="post-content">
 						<div class="entry-header text-center text-uppercase">							

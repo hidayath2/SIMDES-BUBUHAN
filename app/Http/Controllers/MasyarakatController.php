@@ -122,9 +122,9 @@ class MasyarakatController extends Controller
         ]);
 
         if($request->file('image')){
-            $validateData['image'] = $request->file('image')->store('gambar-user');
-            // $request->file('image')->store('public/gambar-user');
-            // $validateData['image'] = $request->file('image')->hashName();
+            // $validateData['image'] = $request->file('image')->store('gambar-user');
+            $request->file('image')->store('public/gambar-user');
+            $validateData['image'] = $request->file('image')->hashName();
         }
         // $validateData['excerpt'] = Str::limit(strip_tags($request->isi), 20);
 
@@ -193,9 +193,14 @@ class MasyarakatController extends Controller
         ]);
             // dd($validateData);
 
+        // if($request->file('image')){
+        //     File::delete(storage_path('gambar-user/', $datapribadi->image));
+        //     $validateData['image'] = $request->file('image')->store('gambar-user');
+        // }
         if($request->file('image')){
-            File::delete(storage_path('gambar-user/', $datapribadi->image));
-            $validateData['image'] = $request->file('image')->store('gambar-user');
+            // File::delete(storage_path('gambar-user/', $datapribadi->image));
+            $request->file('image')->store('public/gambar-user');
+            $validateData['image'] = $request->file('image')->hashName();
         }
 
         $validateData['password'] = Hash::make($validateData['password']);
