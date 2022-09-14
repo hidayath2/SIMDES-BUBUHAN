@@ -10,12 +10,10 @@
             <div class="card">
               <div class="card-body">
                 <div class="d-flex flex-column align-items-center text-center">
-<<<<<<< HEAD
-                  <img src="{{ asset('storage/' . $daftarperangkat->image) }}" alt="Admin" class="rounded-circle" width="150">             
+            
                   {{-- <img src="{{ asset('storage/gambar-perangkat/' . $daftarperangkat->image) }}" alt="Admin" class="rounded-circle" width="150">    --}}
-=======
                   <img src="{{ asset('storage/gambar-perangkat/' . $daftarperangkat->image) }}" alt="Admin" class="rounded-circle" width="150">             
->>>>>>> 2a7f9048761d6bd61a148aa5c6adb3c92646ac52
+
                   {{-- <div class="mt-3">
                     <h4>{{ $daftarmasyarakat->nama }}</h4>
                     <p class="text-secondary mb-1">{{ $daftarmasyarakat->email }}</p>
