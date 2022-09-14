@@ -53,7 +53,7 @@ class PerangkatController extends Controller
         ]);
         if($request->file('image')){
             // $validateData['image'] = $request->file('image')->store('gambar-proyek');
-            $request->file('image')->store('public/gambar-user');
+            $request->file('image')->store('public/gambar-perangkat');
             $validateData['image'] = $request->file('image')->hashName();
         }
         // $validateData['password'] = Hash::make($validateData['password']);
