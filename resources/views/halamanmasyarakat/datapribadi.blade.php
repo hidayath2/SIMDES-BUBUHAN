@@ -21,8 +21,8 @@
                 <div class="col-md-3 border-right" style="margin-top: -30px;">
                     <div class="d-flex flex-column align-items-center text-center p-3 py-5">
                     <label for="image">
-                    {{-- <img class="rounded-circle mt-5" width="200px" height="200px" src="{{ asset('storage/' . $datapribadi->image) }}"> --}}
-                    <img src="{{ asset('storage/gambar-user/' . $datapribadi->image) }}" alt="Admin" class="rounded-circle mt-5" width="200" height="200px">   
+                    <img class="rounded-circle mt-5" width="200px" height="200px" src="{{ asset('storage/' . $datapribadi->image) }}">
+                    {{-- <img src="{{ asset('storage/gambar-user/' . $datapribadi->image) }}" alt="Admin" class="rounded-circle mt-5" width="200" height="200px">    --}}
                     </label>
                         <span class="font-weight-bold">{{ $datapribadi->nama }}</span>
                         <span class="text-black-50">{{ $datapribadi->email }}</span>

@@ -271,8 +271,8 @@
                     <div class="col-lg-4 p-5">
                         <div class="card p-0">
                             <div class="card-image">
-                                {{-- <img src="{{ asset('storage/' . $perangkat->image) }}" alt=""> --}}
-                                <img src="{{ asset('storage/gambar-perangkat/' . $perangkat->image) }}" alt="Admin" class="rounded-circle" width="150">   
+                                <img src="{{ asset('storage/' . $perangkat->image) }}" alt="">
+                                {{-- <img src="{{ asset('storage/gambar-perangkat/' . $perangkat->image) }}" alt="Admin" class="rounded-circle" width="150">    --}}
                             </div>
                             <div class="card-content d-flex flex-column align-items-center">
                                 <h4 class="pt-2">{{ $perangkat->nama }}</h4>

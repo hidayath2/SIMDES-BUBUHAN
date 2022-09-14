@@ -68,6 +68,8 @@ class KegiatanController extends Controller
 
         if($request->file('image')){
             $validateData['image'] = $request->file('image')->store('gambar-kegiatan');
+            // $request->file('image')->store('public/gambar-kegiatan');
+            // $validateData['image'] = $request->file('image')->hashName();
         }
 
         $validateData['excerpt'] = Str::limit(strip_tags($request->isi), 200);

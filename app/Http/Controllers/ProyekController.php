@@ -74,6 +74,8 @@ class ProyekController extends Controller
 
         if($request->file('image')){
             $validateData['image'] = $request->file('image')->store('gambar-proyek');
+            // $request->file('image')->store('public/gambar-proyek');
+            // $validateData['image'] = $request->file('image')->hashName();
         }
 
         $validateData['excerpt'] = Str::limit(strip_tags($request->isi), 150);
