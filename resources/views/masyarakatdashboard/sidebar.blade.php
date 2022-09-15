@@ -6,27 +6,6 @@
         <div class="sidebar-brand-text mx-3">Masyarakat</sup></div>
     </a>
 
-    <!-- Divider -->
-    <hr class="sidebar-divider my-0">
-
-    {{-- <!-- Nav Item - Dashboard -->
-    <li class="nav-item active">
-        <a class="nav-link" href="/dashboarda">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Dashboard</span></a>
-    </li> --}}
-
-    <!-- Divider -->
-    <hr class="sidebar-divider">
-
-    <!-- Nav Item - Pages Collapse Menu -->
-    {{-- <li class="nav-item">
-        <a class="nav-link" href="/admin">
-            <i class="bi bi-people-fill"></i>
-            <span>Admin</span>
-        </a>
-    </li> --}}
-
     <li class="nav-item">
         <a class="nav-link" href="/datapribadi">
             <i class="bi bi-people-fill"></i>
@@ -283,10 +262,10 @@
                         <input type="text" class="form-control" id="deskripsibaranghilang" name="deskripsibaranghilang">
                     </div>
                     
-                    <div class="mb-3">
+                    {{-- <div class="mb-3">
                         <label for="tujuanpermohonan" class="form-label">Tujuan Surat</label>
                         <input type="text" class="form-control" id="tujuanpermohonan" name="tujuanpermohonan">
-                    </div>
+                    </div> --}}
             
                     <button type="submit" class="btn btn-primary mb-3">Kirim</button>
                 </form>
