@@ -37,7 +37,7 @@
                         PEMERINTAH KABUPATEN SIMEULUE
                     </span><br>
                     <span style="font-size: 14pt; font-weight: bold">
-                        KECAMATAN SIMEULUE
+                        KECAMATAN SIMEULUE CUT
                     </span><br>
                     <span style="font-size: 14pt; font-weight: bold">
                         DESA BUBUHAN
@@ -87,7 +87,7 @@
                 <td>Tempat /Tgl Lahir</td>
                 <td>:</td>
                 <td>
-                   {{ $data->user->tempatlahir }}, {{ $data->user->tanggallahir->isoFormat('D MMMM Y') }}
+                    {{ $data->user->tempatlahir }}, {{ $data->user->tanggallahir->isoFormat('D MMMM Y') }}
                 </td>
             </tr>
             <tr>
@@ -122,9 +122,8 @@
         <div style="text-align: justify;">
             <p>
                 Benar yang namanya tersebut diatas adalah Penduduk Desa Bubuhan Kecamatan Simeulue Cut 
-                Kabupaten Simeulue Provinsi Aceh, dan menurut laporan yang bersangkutan kepada kami,
-                {{$data->deskripsibaranghilang}}. Simeulue dan diberikan surat keterangan ini kepada yang bersangkutan sebagai kelengkapan
-                administrasi kepengurusan {{ $data->tujuanpermohonan }}.<br><br> 
+                Kabupaten Simeulue Provinsi Aceh, dan menurut laporan yang bersangkutan kepada kami, telah kehilangan
+                {{$data->deskripsibaranghilang}}. Dan diberikan surat keterangan ini kepada yang bersangkutan sebagai kelengkapan administrasi kepengurusan surat lainnya{{ $data->tujuanpermohonan }}.<br><br> 
                 
                 Demikian Surat keterangan ini di berikan kepada yang bersangkutan untuk diketahui dan
                 dimaklumi agar dapat di pergunakan sebagaimana mestinya.

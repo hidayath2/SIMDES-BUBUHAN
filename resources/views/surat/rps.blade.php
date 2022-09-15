@@ -37,7 +37,7 @@
                         PEMERINTAH KABUPATEN SIMEULUE
                     </span><br>
                     <span style="font-size: 14pt; font-weight: bold">
-                        KECAMATAN SIMEULUE
+                        KECAMATAN SIMEULUE CUT
                     </span><br>
                     <span style="font-size: 14pt; font-weight: bold">
                         DESA BUBUHAN
@@ -93,7 +93,7 @@
         <!--isi-->
         <div style="text-align: justify;">
             <p>
-                Rekomendasi ini dikeluarkan berdasarkan surat permohonan {{ $data->jabatan }} Desa Bubuhan Nomor : {{ $no }}/BKM/DBH/{{ $bln }} / {{ date('Y') }}, Tanggal {{ $data->tanggalpermohonan->isoFormat('D MMMM Y') }} Prihal Permohonan {{ $data->prihalpermohonan }}, pada prinsipnya kami Pemerintahan Desa Bubuhan Sangat mendukung serta turut bermohon kepada {{ $data->tujuanpermohonan }} sudi kiranya memberikan Bantuan {{ $data->prihalpermohonan }} yang dimaksud di atas sejauh tidak bertentangan dengan ketentuan yang berlaku untuk itu.<br><br>
+                Rekomendasi ini dikeluarkan berdasarkan surat permohonan {{ $data->jabatan }} Desa Bubuhan Nomor : {{ $no }}/BKM/DBH/{{ $bln }} / {{ date('Y') }}, Tanggal {{ $data->tanggalpermohonan->isoFormat('D MMMM Y') }} Prihal Permohonan {{ $data->prihalpermohonan }}, pada prinsipnya kami Pemerintahan Desa Bubuhan Sangat mendukung serta turut bermohon kepada Bapak/Ibu Kepala{{ $data->tujuanpermohonan }} sudi kiranya memberikan Bantuan {{ $data->prihalpermohonan }} yang dimaksud di atas sejauh tidak bertentangan dengan ketentuan yang berlaku untuk itu.<br><br>
                 
                 Demikian Surat keterangan ini di berikan kepada yang bersangkutan untuk diketahui dan
                 dimaklumi agar dapat di pergunakan sebagaimana mestinya.

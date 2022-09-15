@@ -37,7 +37,7 @@
                         PEMERINTAH KABUPATEN SIMEULUE
                     </span><br>
                     <span style="font-size: 14pt; font-weight: bold">
-                        KECAMATAN SIMEULUE
+                        KECAMATAN SIMEULUE CUT
                     </span><br>
                     <span style="font-size: 14pt; font-weight: bold">
                         DESA BUBUHAN
@@ -56,7 +56,7 @@
 
         <!--nomor-->
         <div style="margin-top: 5px" class="text-center">
-            <b style="text-decoration: underline; font-size: 12pt; font-weight: bold">KETERANGAN KETERANGAN KIR</b>
+            <b style="text-decoration: underline; font-size: 12pt; font-weight: bold">SURAT KETERANGAN KIR</b>
             <br>
             Nomor : {{ $no }} /DBH/{{ $bln }} / {{ date('Y') }}
         </div>
@@ -129,7 +129,7 @@
             <p>
                 Benar yang namanya tersebut diatas adalah Penduduk Desa Bubuhan Kecamatan Simeulue Cut
                 Kabupaten Simeulue Provinsi Aceh, kami keluarkan dan diberikan surat keterangan ini kepada 
-                Keluarga yang bersangkutan sebagai kelengkapan administrasi kepengurusan {{ $data->keperluan }}<br><br> 
+                Keluarga yang bersangkutan sebagai kelengkapan administrasi kepengurusan {{ $data->keperluan }}.<br><br> 
                 
                 Demikian Surat keterangan ini di berikan kepada yang bersangkutan untuk diketahui dan
                 dimaklumi agar dapat di pergunakan sebagaimana mestinya.

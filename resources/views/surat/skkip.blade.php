@@ -37,7 +37,7 @@
                         PEMERINTAH KABUPATEN SIMEULUE
                     </span><br>
                     <span style="font-size: 14pt; font-weight: bold">
-                        KECAMATAN SIMEULUE
+                        KECAMATAN SIMEULUE CUT
                     </span><br>
                     <span style="font-size: 14pt; font-weight: bold">
                         DESA BUBUHAN
@@ -66,7 +66,7 @@
             <p>
                 Kepala Desa Bubuhan Kecamatan Simeulue Cut
                 Kabupaten Simeulue dengan ini 
-                menerangkan bahwa :
+                memberikan Rekomendasi kepada :
             </p>
         </div>
         

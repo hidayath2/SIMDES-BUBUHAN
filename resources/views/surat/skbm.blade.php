@@ -37,7 +37,7 @@
                         PEMERINTAH KABUPATEN SIMEULUE
                     </span><br>
                     <span style="font-size: 14pt; font-weight: bold">
-                        KECAMATAN SIMEULUE
+                        KECAMATAN SIMEULUE CUT
                     </span><br>
                     <span style="font-size: 14pt; font-weight: bold">
                         DESA BUBUHAN
@@ -56,7 +56,7 @@
 
         <!--nomor-->
         <div style="margin-top: 20px" class="text-center">
-            <b style="text-decoration: underline; font-size: 14pt; font-weight: bold">KETERANGAN KETERANGAN BELUM MENIKAH</b>
+            <b style="text-decoration: underline; font-size: 14pt; font-weight: bold">SURAT KETERANGAN BELUM MENIKAH</b>
             <br>
             Nomor : {{ $no }} /DBH/{{ $bln }} / {{ date('Y') }}
         </div>
@@ -101,7 +101,7 @@
             <tr>
                 <td>Alamat</td>
                 <td>:</td>
-                <td>Desa Bubuhan</td>
+                <td>Desa Bubuhan Kecamatan Simeulue Cut Kabupaten Simeulue</td>
             </tr>
         </table>
         

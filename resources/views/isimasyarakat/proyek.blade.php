@@ -57,6 +57,11 @@
 				<article class="single-blog">
 					<div class="post-thumb" style="margin-top: 60px;">
 						{{-- <a href=""><img src="{{ asset('storage/' . $daftarproyek->image) }}" alt=""></a> --}}
+
+            {{-- untuk versi ofline public nya di tulis --}}
+            {{-- <img src="{{ asset('storage/public/gambar-proyek/' . $daftarproyek->image) }}"> --}}
+            
+            {{-- versi online public nya di hapus --}}
             <img src="{{ asset('storage/public/gambar-proyek/' . $daftarproyek->image) }}">   
 					</div>
 					<div class="post-content">

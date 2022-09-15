@@ -37,7 +37,7 @@
                         PEMERINTAH KABUPATEN SIMEULUE
                     </span><br>
                     <span style="font-size: 14pt; font-weight: bold">
-                        KECAMATAN SIMEULUE
+                        KECAMATAN SIMEULUE CUT
                     </span><br>
                     <span style="font-size: 14pt; font-weight: bold">
                         DESA BUBUHAN
@@ -56,7 +56,7 @@
 
         <!--nomor-->
         <div style="margin-top: 5px" class="text-center">
-            <b style="text-decoration: underline; font-size: 12pt; font-weight: bold">KETERANGAN KETERANGAN PEKERJAAN ORANG TUA</b>
+            <b style="text-decoration: underline; font-size: 12pt; font-weight: bold">SURAT KETERANGAN PEKERJAAN ORANG TUA</b>
             <br>
             Nomor : {{ $no }} /DBH/{{ $bln }} / {{ date('Y') }}
         </div>
