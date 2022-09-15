@@ -201,6 +201,7 @@ class MasyarakatController extends Controller
             // File::delete(storage_path('gambar-user/', $datapribadi->image));
             $request->file('image')->store('public/gambar-user');
             $validateData['image'] = $request->file('image')->hashName();
+            
         }
 
         $validateData['password'] = Hash::make($validateData['password']);

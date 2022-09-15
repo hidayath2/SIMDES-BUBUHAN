@@ -1,4 +1,3 @@
-
 @extends('layouts.masyarakat')
 
 @section('content')
@@ -136,8 +135,14 @@
                     </div>
                   </div>
                 </div>
-              </div>
-          </div>
+                {{-- <button class="btn btn-primary">
+                    <i class="bi bi-pencil-fill"></i>
+                </button> --}}
+                <a href="{{  route('datapribadi.edit', $datapribadi->id)  }}" class="btn btn-primary">
+                    <i class="bi bi-pencil-fill"></i>
+                </a>
+            </div>
+        </div>
   
         </div>
   </div>
