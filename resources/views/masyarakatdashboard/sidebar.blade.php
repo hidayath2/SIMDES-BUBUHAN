@@ -6,7 +6,7 @@
         <div class="sidebar-brand-text mx-3">Masyarakat</sup></div>
     </a> --}}
 
-    <li class="nav-item">
+    <li class="nav-item mt-4">
         <a class="nav-link" href="/datapribadi">
             <i class="bi bi-people-fill"></i>
             <span>Data Diri</span>
