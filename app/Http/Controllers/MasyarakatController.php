@@ -121,11 +121,11 @@ class MasyarakatController extends Controller
             'role' => 'nullable'
         ]);
 
-        if($request->file('image')){
-            // $validateData['image'] = $request->file('image')->store('gambar-user');
-            $request->file('image')->store('public/gambar-user');
-            $validateData['image'] = $request->file('image')->hashName();
-        }
+        // if($request->file('image')){
+        //     // $validateData['image'] = $request->file('image')->store('gambar-user');
+        //     $request->file('image')->store('public/gambar-user');
+        //     $validateData['image'] = $request->file('image')->hashName();
+        // }
         // $validateData['excerpt'] = Str::limit(strip_tags($request->isi), 20);
 
         $validateData['password'] = Hash::make($validateData['password']);

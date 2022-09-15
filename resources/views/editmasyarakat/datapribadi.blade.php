@@ -12,7 +12,9 @@
                         <div class="d-flex flex-column align-items-center text-center p-3 py-5">
                         <label for="image">
                         {{-- <img class="rounded-circle mt-5" width="200px" height="200px" src="{{ asset('storage/' . $datapribadi->image) }}"> --}}
-                        <img src="{{ asset('storage/public/gambar-user/' . $datapribadi->image) }}" class="img-fluid" style="height: 300px">   
+                        {{-- <img src="{{ asset('storage/public/gambar-user/' . $datapribadi->image) }}" class="img-fluid" style="height: 300px">  --}}
+                  <img src="{{ asset('storage/gambar-user/' . $datapribadi->image) }}" alt="Admin" class="rounded-circle" width="150">             
+
                         
                         </label>
                             <span class="font-weight-bold">{{ $datapribadi->nama }}</span>
