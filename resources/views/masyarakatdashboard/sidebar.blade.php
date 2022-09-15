@@ -2,9 +2,9 @@
 <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
     <!-- Sidebar - Brand -->
-    <a class="sidebar-brand d-flex align-items-center justify-content-center">
+    {{-- <a class="sidebar-brand d-flex align-items-center justify-content-center">
         <div class="sidebar-brand-text mx-3">Masyarakat</sup></div>
-    </a>
+    </a> --}}
 
     <li class="nav-item">
         <a class="nav-link" href="/datapribadi">
