@@ -279,7 +279,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <div class="modal-title"><b>Surat Keterangan hilang</b></div>
+                    <div class="modal-title"><b>Surat Keterangan Belum Menikah</b></div>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                     </button>
@@ -287,7 +287,7 @@
                 <div class="container">
                   <form method="post" action="{{ route('surat.store') }}" enctype="multipart/form-data">
                     @csrf 
-                    <input type="hidden" name="jenis_surat" value="skh">
+                    <input type="hidden" name="jenis_surat" value="skbm">
             
                     <button type="submit" class="btn btn-primary mb-4 mt-3">Minta Surat</button>
                 </form>
