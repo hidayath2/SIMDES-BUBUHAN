@@ -75,7 +75,12 @@
             <div class="card" style="height:100%;  margin-top: 80px;">
               <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                 {{-- <img src="{{ asset('storage/' . $proyek->image) }}" class="img-fluid"  style="height: 300px;"/> --}}
-                <img src="{{ asset('storage/public/gambar-proyek/' . $proyek->image) }}" alt="Admin" class="img-fluid" style="height: 300px">   
+
+                {{-- jika masih local/ofline maka public nya ditulis --}}
+                {{-- <img src="{{ asset('storage/public/gambar-proyek/' . $proyek->image) }}" alt="Admin" class="img-fluid" style="height: 300px">    --}}
+
+                {{-- jika sudah online maka publiv nya di hapus --}}
+                <img src="{{ asset('storage/gambar-proyek/' . $proyek->image) }}" alt="Admin" class="img-fluid" style="height: 300px">   
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>

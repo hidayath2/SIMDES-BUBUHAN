@@ -62,7 +62,7 @@
             {{-- <img src="{{ asset('storage/public/gambar-proyek/' . $daftarproyek->image) }}"> --}}
             
             {{-- versi online public nya di hapus --}}
-            <img src="{{ asset('storage/public/gambar-proyek/' . $daftarproyek->image) }}">   
+            <img src="{{ asset('storage/gambar-proyek/' . $daftarproyek->image) }}">   
 					</div>
 					<div class="post-content">
 						<div class="entry-header text-center text-uppercase">							

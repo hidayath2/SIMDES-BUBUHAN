@@ -277,7 +277,7 @@
                                 {{-- <img src="{{ asset('storage/public/gambar-perangkat/' . $perangkat->image) }}" alt="Admin" class="rounded-circle" width="150">    --}}
 
                                 {{-- jika sudah online maka public nya di hapus --}}
-                                <img src="{{ asset('storage/gambar-perangkat/' . $perangkat->image) }}" alt="Admin" class="rounded-circle" width="150">   
+                                <img src="{{ asset('storage/gambar-perangkat/' . $perangkat->image) }}">   
                             </div>
                             <div class="card-content d-flex flex-column align-items-center">
                                 <h4 class="pt-2">{{ $perangkat->nama }}</h4>

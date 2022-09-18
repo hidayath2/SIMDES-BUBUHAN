@@ -75,7 +75,12 @@
             <div class="card" style="height:550px; margin-top: 80px;">
               <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                 {{-- <img src="{{ asset('storage/' . $kegiatan->image) }}" class="img-fluid"  style="height: 300px"/> --}}
-                <img src="{{ asset('storage/public/gambar-kegiatan/' . $kegiatan->image) }}" alt="Admin" class="rounded-circle" width="150">   
+
+                {{-- jika masih local atau ofline maka public nya di taruk --}}
+                {{-- <img src="{{ asset('storage/public/gambar-kegiatan/' . $kegiatan->image) }}" alt="Admin" class="rounded-circle" width="150"> --}}
+                
+                {{-- ketika sudah online maka publicnya di hapus --}}
+                <img src="{{ asset('storage/gambar-kegiatan/' . $kegiatan->image) }}" class="img-fluid"  style="height: 300px">   
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>

@@ -128,10 +128,10 @@
                     {{-- <img src="{{ asset('storage/' . $kegiatan->image) }}" style="height: 450px ; background-size:cover" class="d-block w-100" alt="..."> --}}
 
                     {{-- versi ofline publicnya di tulis --}}
-                    <img src="{{ asset('storage/public/gambar-kegiatan/' . $kegiatan->image) }}" alt="Admin" class="rounded-circle" width="150">   
+                    {{-- <img src="{{ asset('storage/public/gambar-kegiatan/' . $kegiatan->image) }}" alt="Admin" class="rounded-circle" width="150">    --}}
 
                     {{-- versi online publicnya di ilangin --}}
-                    <img src="{{ asset('storage/public/gambar-kegiatan/' . $kegiatan->image) }}" alt="Admin" class="rounded-circle" width="150">   
+                    <img src="{{ asset('storage/gambar-kegiatan/' . $kegiatan->image) }}" style="height: 450px ; background-size:cover" class="d-block w-100">   
                   </div>
                   @endforeach
                 </div>
@@ -193,7 +193,7 @@
                     {{-- <img src="{{ asset('storage/public/gambar-proyek/' . $proyek->image) }}" alt="Admin" class="rounded-circle" width="150">    --}}
 
                     {{-- versi online public nya di ilangin --}}
-                    <img src="{{ asset('storage/gambar-proyek/' . $proyek->image) }}" alt="Admin" class="rounded-circle" width="150">   
+                    <img src="{{ asset('storage/gambar-proyek/' . $proyek->image) }}" class="img-fluid"   style="height: 300px; width:100%;">   
                     <a href="#!">
                       <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                     </a>

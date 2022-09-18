@@ -91,7 +91,7 @@
                 {{-- <img src="{{ asset('storage/public/gambar-kegiatan/' . $kegiatan->image) }}" class="img-fluid" style="height: 300px">    --}}
 
                 {{-- versi online harus di apus public nya  --}}
-                <img src="{{ asset('storage/public/gambar-kegiatan/' . $kegiatan->image) }}" class="img-fluid" style="height: 300px">
+                <img src="{{ asset('storage/gambar-kegiatan/' . $kegiatan->image) }}" class="img-fluid" style="height: 300px">
 
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
