@@ -52,30 +52,48 @@
   </header><!-- End Header -->
 {{-- <div class="kotha-default-content"> --}}
 	{{-- <div class="container"> --}}
-		<div class="row">
-			<div class="col-sm-6" style="margin-left: 20%; width:60%;">
-				<article class="single-blog">
-					<div class="post-thumb" style="margin-top: 60px;">
-						{{-- <a href=""><img src="{{ asset('storage/' . $daftarproyek->image) }}" alt=""></a> --}}
-
-            {{-- untuk versi ofline public nya di tulis --}}
-            {{-- <img src="{{ asset('storage/public/gambar-proyek/' . $daftarproyek->image) }}"> --}}
-            
-            {{-- versi online public nya di hapus --}}
-            <img src="{{ asset('storage/gambar-proyek/' . $daftarproyek->image) }}">   
-					</div>
-					<div class="post-content">
-						<div class="entry-header text-center text-uppercase">							
-							<h2>{{ $daftarproyek->judul }}</h2> <br>
-						</div>
-						<div class="entry-content" style="margin-top: -36px; text-align: justify;">
-							<p>{!! $daftarproyek->isi !!}</p>
-						</div>
-                        <a href="/allproyek" style="font-size: 12px">Kembali Ke Halaman Daftar Proyek</a>
-					</div>
-				</article>
-			</div>
-		</div>
+    <main class="my-5">
+      <div class="container" style="margin-top: -70px;">
+        <!--Section: Content-->
+        <section class="text-center">
+          <h4 class="mb-4" style="margin-top: -60px"><strong>Postingan Terbaru</strong></h4>
+          
+          <div class="row" style="justify-content: center">
+            {{-- @foreach ($daftarkegiatan as $kegiatan) --}}
+            <div class="col-lg-4 col-md-12 mt-10">
+              {{-- <div class="card" style="height:550px; margin-top: 80px;"> --}}
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  {{-- <img src="{{ asset('storage/' . $kegiatan->image) }}" class="img-fluid"  style="height: 300px"/> --}}
+  
+                  {{-- versi online harus di tulis public nya --}}
+                  {{-- <img src="{{ asset('storage/public/gambar-kegiatan/' . $kegiatan->image) }}" class="img-fluid" style="height: 300px">    --}}
+  
+                  {{-- versi online harus di apus public nya  --}}
+                  <img src="{{ asset('storage/gambar-proyek/' . $daftarproyek->image) }}" class="img-fluid mt-5" style="height: 300px">
+  
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title mt-3">{{ $daftarproyek->judul }}</h5>
+                  <p class="card-text"><small class="text-muted">{{ $daftarproyek->created_at->diffForhumans() }}</small></p>
+                  {{-- <p class="card-text" style="text-align: justify;">
+                    {!! $kegiatan->isi !!} 
+                  </p> --}}
+                  <div class="entry-content" style="margin-top: 20px; text-align: justify;">
+                    <p>{!! $daftarproyek->isi !!}</p>
+                  </div>
+                  <a href="/allproyek" style="font-size: 12px">Kembali Ke Halaman Kegiatan</a>
+                  {{-- <a href="/isikegiatan/{{ $kegiatan->id }}" class="btn btn-primary">Selengkapnya</a> --}}
+                </div>
+              {{-- </div> --}}
+            </div>
+            {{-- @endforeach --}}
+          </div>
+        </section>      
+      </div> 
+    </main>
 	{{-- </div> --}}
 {{-- </div> --}}
 

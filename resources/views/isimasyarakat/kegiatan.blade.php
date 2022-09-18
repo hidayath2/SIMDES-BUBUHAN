@@ -78,11 +78,11 @@
     <div class="container" style="margin-top: -70px;">
       <!--Section: Content-->
       <section class="text-center">
-        <h4 class="mb-5" style="margin-top: -60px"><strong>Postingan Terbaru</strong></h4>
+        <h4 class="mb-4" style="margin-top: -60px"><strong>Postingan Terbaru</strong></h4>
         
-        <div class="row">
+        <div class="row" style="justify-content: center">
           {{-- @foreach ($daftarkegiatan as $kegiatan) --}}
-          <div class="col-lg-4 col-md-12 mb-4">
+          <div class="col-lg-4 col-md-12 mt-10">
             {{-- <div class="card" style="height:550px; margin-top: 80px;"> --}}
               <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                 {{-- <img src="{{ asset('storage/' . $kegiatan->image) }}" class="img-fluid"  style="height: 300px"/> --}}
@@ -91,7 +91,7 @@
                 {{-- <img src="{{ asset('storage/public/gambar-kegiatan/' . $kegiatan->image) }}" class="img-fluid" style="height: 300px">    --}}
 
                 {{-- versi online harus di apus public nya  --}}
-                <img src="{{ asset('storage/gambar-kegiatan/' . $kegiatan->image) }}" class="img-fluid" style="height: 300px">
+                <img src="{{ asset('storage/gambar-kegiatan/' . $kegiatan->image) }}" class="img-fluid mt-5" style="height: 300px">
 
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
