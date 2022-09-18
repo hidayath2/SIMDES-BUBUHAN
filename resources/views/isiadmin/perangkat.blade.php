@@ -17,7 +17,7 @@
                   {{-- <img src="{{ asset('storage/public/gambar-perangkat/' . $daftarperangkat->image) }}" alt="Admin" class="rounded-circle" width="150"> --}}
                   
                   {{-- jika sudah online maka folder public nya dihapus --}}
-                  <img src="{{ asset('storage/gambar-perangkat/' . $daftarperangkat->image) }}" alt="Admin" class="rounded-circle" width="150">             
+                  <img src="{{ asset('storage/gambar-perangkat/' . $daftarperangkat->image) }}">             
 
                   {{-- <div class="mt-3">
                     <h4>{{ $daftarmasyarakat->nama }}</h4>
