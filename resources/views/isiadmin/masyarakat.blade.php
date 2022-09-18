@@ -16,7 +16,7 @@
                   {{-- <img src="{{ asset('storage/public/gambar-user/' . $daftarmasyarakat->image) }}">    --}}
 
                   {{-- jika sudah online maka public nya di hapus --}}
-                  <img src="{{ asset('storage/gambar-user/' . $daftarmasyarakat->image) }}">   
+                  <img src="{{ asset('storage/gambar-user/' . $daftarmasyarakat->image) }}" class="rounded-circle" width="150">   
                   <div class="mt-3">
                     <h4>{{ $daftarmasyarakat->nama }}</h4>
                     <p class="text-secondary mb-1">{{ $daftarmasyarakat->email }}</p>
