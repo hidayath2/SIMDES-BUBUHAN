@@ -12,6 +12,11 @@
                 <div class="d-flex flex-column align-items-center text-center">
             
                   {{-- <img src="{{ asset('storage/gambar-perangkat/' . $daftarperangkat->image) }}" alt="Admin" class="rounded-circle" width="150">    --}}
+
+                  {{-- jika masih local/offline maka folder public nya di tulis --}}
+                  <img src="{{ asset('storage/public/gambar-perangkat/' . $daftarperangkat->image) }}" alt="Admin" class="rounded-circle" width="150">
+                  
+                  {{-- jika sudah online maka folder public nya dihapus --}}
                   <img src="{{ asset('storage/gambar-perangkat/' . $daftarperangkat->image) }}" alt="Admin" class="rounded-circle" width="150">             
 
                   {{-- <div class="mt-3">

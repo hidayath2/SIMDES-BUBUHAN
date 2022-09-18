@@ -7,7 +7,12 @@
     <article class="single-blog">
       <div class="post-thumb" style="margin-top: 60px; margin-left: -190px; margin-bottom: 50px">
         {{-- <a href=""><img src="{{ asset('storage/' . $daftarkegiatan->image) }}" alt=""></a> --}}
-        <img src="{{ asset('storage/public/gambar-kegiatan/' . $daftarkegiatan->image) }}">   
+
+        {{-- jika masih local/offline maka folder public nya di tuliskan --}}
+        <img src="{{ asset('storage/public/gambar-kegiatan/' . $daftarkegiatan->image) }}">
+        
+        {{-- jika sudah online maka folder public nya di hapus --}}
+        <img src="{{ asset('storage/gambar-kegiatan/' . $daftarkegiatan->image) }}">   
       </div>
       <div class="post-content">
         <div class="entry-header text-center text-uppercase" style="margin-bottom: 50px;">							

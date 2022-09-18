@@ -9,7 +9,12 @@
       <div class="post-thumb" style="margin-top: 60px; margin-bottom: 50px">
         <a href="">
           {{-- <img src="{{ asset('storage/' . $daftarproyek->image) }}" alt=""> --}}
-          <img src="{{ asset('storage/public/gambar-proyek/' . $daftarproyek->image) }}">   
+
+          {{-- jika masih local/offline maka folder public nya di tuliskan --}}
+          {{-- <img src="{{ asset('storage/public/gambar-proyek/' . $daftarproyek->image) }}">   --}}
+          
+          {{-- jika sudah online folder publicnya di hapus --}}
+          <img src="{{ asset('storage/gambar-proyek/' . $daftarproyek->image) }}">   
         </a>
       </div>
     </center>
