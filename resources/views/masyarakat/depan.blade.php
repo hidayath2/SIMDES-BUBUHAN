@@ -244,7 +244,7 @@
                       {{-- <img src="{{ asset('storage/public/gambar-perangkat/' . $perangkat->image) }}" alt="Admin" class="rounded-circle" width="150">   --}}
 
                       {{-- untuk versi yang online tidak pakai public --}}
-                      <img src="{{ asset('storage/gambar-perangkat/' . $perangkat->image) }}" alt="Admin" class="rounded-circle" width="150">   
+                      <img src="{{ asset('storage/gambar-perangkat/' . $perangkat->image) }}" class="testimonial-img">   
                      
                       <h3>{{ $perangkat->nama }}</h3>
                       <h3>{{ $perangkat->jabatan }}</h3>
