@@ -121,7 +121,7 @@ Route::put('datapribadi/{id}', [MasyarakatController::class, 'update'])->name('d
 Route::get('datapribadi/{id}', [MasyarakatController::class, 'edit'])->name('datapribadi.edit');
 
 // halaman dashboard admin data masyarakat
-Route::resource('masyarakat', MasyarakatController::class);
+Route::resource('/masyarakat', MasyarakatController::class);
 
 // untuk halaman dashboard admin kelola proyek,kegiatan dan perangkat dan agenda
 Route::resource('proyek', ProyekController::class);
