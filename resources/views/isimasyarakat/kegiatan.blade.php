@@ -74,7 +74,7 @@
 	{{-- </div> --}}
 {{-- </div> --}}
 
-  <main class="my-5">
+  <main class="my-5 p-5">
     <div class="container" style="margin-top: -70px;">
       <!--Section: Content-->
       <section class="text-center">
@@ -88,7 +88,7 @@
                 {{-- <img src="{{ asset('storage/' . $kegiatan->image) }}" class="img-fluid"  style="height: 300px"/> --}}
 
                 {{-- versi online harus di tulis public nya --}}
-                {{-- <img src="{{ asset('storage/public/gambar-kegiatan/' . $kegiatan->image) }}" class="img-fluid" style="height: 300px">    --}}
+                {{-- <img src="{{ asset'storage/public/gambar-kegiatan/' . $kegiatan->image) }}" class="img-fluid" style="height: 300px">    --}}
 
                 {{-- versi online harus di apus public nya  --}}
                 <img src="{{ asset('storage/gambar-kegiatan/' . $kegiatan->image) }}" class="img-fluid mt-5" style="height: 300px">
