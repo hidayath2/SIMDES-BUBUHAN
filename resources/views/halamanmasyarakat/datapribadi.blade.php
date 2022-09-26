@@ -23,7 +23,7 @@
                     <div class="d-flex flex-column align-items-center text-center">
                         {{-- <img src="{{ asset('storage/' . $daftarmasyarakat->image) }}" alt="Admin" class="rounded-circle" width="150"> --}}
                         {{-- <img src="{{ asset('storage/public/gambar-user/' . $datapribadi->image) }}">   --}}
-                  <img src="{{ asset('storage/gambar-user/' . $datapribadi->image) }}" alt="Admin" class="img-fluid" style="height: 300px">             
+                  <img src="{{ asset('storage/gambar-user/' . $datapribadi->image) }}" alt="Admin" class="img-fluid" style="height: 300px; width:300px;">             
 
                         <div class="mt-3">
                         <h4>{{ $datapribadi->nama }}</h4>
