@@ -56,7 +56,7 @@
 			<div class="col-sm-10">
 				<article class="single-blog">
 					<div class="post-thumb" style="margin-top: 60px;">
-						<a href=""><img src="{{ asset('storage/' . $kegiatan->image) }}" alt=""></a>
+						<a href=""><img src="{{ asset('storage/gambar-kegiatan/' . $kegiatan->image) }}" alt=""></a>
 					</div>
 					<div class="post-content">
 						<div class="entry-header text-center text-uppercase">							
