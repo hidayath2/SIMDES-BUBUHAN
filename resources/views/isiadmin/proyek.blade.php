@@ -14,7 +14,7 @@
           {{-- <img src="{{ asset('storage/public/gambar-proyek/' . $daftarproyek->image) }}">   --}}
           
           {{-- jika sudah online folder publicnya di hapus --}}
-          <img src="{{ asset('storage/gambar-proyek/' . $daftarproyek->image) }}">   
+          <img src="{{ asset('storage/gambar-proyek/' . $daftarproyek->image) }}" width="600px">   
         </a>
       </div>
     </center>
