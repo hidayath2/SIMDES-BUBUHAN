@@ -12,7 +12,7 @@
         {{-- <img src="{{ asset('storage/public/gambar-kegiatan/' . $daftarkegiatan->image) }}" width="600px"> --}}
         
         {{-- jika sudah online maka folder public nya di hapus --}}
-        {{-- <img src="{{ asset('storage/gambar-kegiatan/' . $daftarkegiatan->image) }}" width="600px">    --}}
+        <img src="{{ asset('storage/gambar-kegiatan/' . $daftarkegiatan->image) }}" width="600px">   
       </div>
       <div class="post-content">
         <div class="entry-header text-center text-uppercase" style="margin-bottom: 50px;">							
